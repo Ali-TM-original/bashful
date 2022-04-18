@@ -3,7 +3,7 @@
 # source https://linuxize.com/post/how-to-install-sublime-text-3-on-ubuntu-18-04
 
 GetSublRepo(){
-	echo -e "\n Adding Sublime text to REpo"
+	echo -e "\n Adding Sublime text to REpo \n"
 	
 	wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 	
@@ -18,7 +18,7 @@ GetSublRepo(){
 
 installEditor(){
 
-	echo -e "\n\n  Installing Sublime Text .. "
+	echo -e "\n\n  Installing Sublime Text .. \n"
 	sudo apt-get install sublime-text
 
 	# Install `libgtk` for Sublime to work on 18.10
@@ -29,7 +29,7 @@ installEditor(){
 }
 
 install_sublime_merge () {
-	echo -e "\n\n  Installing Sublime Merge .. "
+	echo -e "\n\n  Installing Sublime Merge .. \n"
 	sudo apt-get install sublime-merge
 }
 
@@ -40,4 +40,4 @@ add_sublime_repo
 install_sublime_text
 install_sublime_merge
 
-echo -e "\n Sublime Text Editor Installed Successfuly"
+echo -e "\n Sublime Text Editor Installed Successfuly\n"
